@@ -1,7 +1,7 @@
-import TextStatistics from "../textStatistics";
+import TextStatisticsInterface from "../textStatisticsInterface";
 import Word from "./word";
 
-class Book implements TextStatistics {
+class Book implements TextStatisticsInterface {
   private content: string;
   private stringWords: string[] = [];
   private words: Word[] = [];
